@@ -80,7 +80,7 @@ Close and save (CTRL+X, press Y and Enter)
 
 Next, you will make sure the USB driver is enabled on boot.
 ```bash
-sudo nano /boot/commandline.txt
+sudo nano /boot/cmdline.txt
 ```
 This is a bit tricky. You will need to add the text below **at the end of the existing line (don't add a new line!)** Make sure there is a space between the last command and this one. At the end of the line there should be a space and after the command line, an empty line.
 ```
